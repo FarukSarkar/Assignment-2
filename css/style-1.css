@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 100%;
+	height: 70px;
+	background: #238AE6;
+	line-height: 70px;
+}
+
+.menu-bar ul{
+	text-align: center;
+}
+
+.menu-bar ul li{
+	display: inline-block;
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 5px;
+	transition: 0.5s;
+}
+
+.menu-bar ul li:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+.menu-bar ul li a:hover{
+	color:red;
+}
+
+.bac-img{
+	background-image: url(../img/wave.jpg);
+	width: 100%;
+	height: 100vh;
+}
+
+.social-icon{
+	width: 100%;
+	padding-top: 400px;
+}
+
+.social-icon ul{
+	text-align: center;
+	transition: 0.5s;
+}
+
+.social-icon ul li{
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+	background: #238AE6;
+	line-height: 75px;
+	border-radius: 50%;
+	margin: 0 17px;
+	transition: 0.5s;
+}
+
+.social-icon ul li a{
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+}
+
+.social-icon ul li:hover{
+	background: red;
+	transform: scale(1.3);
+}
